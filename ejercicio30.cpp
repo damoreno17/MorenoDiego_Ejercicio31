@@ -29,6 +29,8 @@ int main(int argc, char **argv){
   init(psi, n_x);
   print(psi, n_x);
   
+  double i = 0.0;
+  
   while(i>rho)
   {
     copy(psi_past, psi, n_x);
